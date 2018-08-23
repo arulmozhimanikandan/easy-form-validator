@@ -6,7 +6,7 @@
 
 **Validate email**
 
-`import { isEmailValid } from 'easy-form-validator'`
+`const { isEmailValid } = require('easy-form-validation)`
 
 Usage : _isEmailValid('arulgetsolute@gmail.com')_
 
@@ -15,8 +15,8 @@ result: _**True | false**_
 
 **Validate name**
 
-`import { isEmailValid } from 'easy-form-validator'`
+`const { isNameValid } = require('easy-form-validation)`
 
-Usage : _isEmailValid('arulmozhimanikandan')_
+Usage : _isNameValid('arulmozhimanikandan')_
 
 result: _**True | false**_
