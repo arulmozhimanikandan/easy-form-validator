@@ -1,4 +1,4 @@
-const isRequired = (param)  => {
+const isRequired = (param) => {
     throw new Error(` ${param} parameter missing.`);
 }
 
